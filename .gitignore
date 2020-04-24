@@ -1,5 +1,6 @@
 .vscode/
 *.pyc
 __pycache__/
+__pycache/
 yolov3.weights
 *.sqlite3
