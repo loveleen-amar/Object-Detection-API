@@ -38,14 +38,14 @@ The basic web interface looks like:
 
 After uploading photos, we get images with boundary boxes detected around it. For examples
 
-<center>
+<p align="center">
 <img src="images/input_1.jpg" width="45%">
 <img src="images/output_1.png" width="45%">
 <br>
 <br>
 <img src="images/input_2.jpeg" width="45%">
 <img src="images/output_2.png" width="45%">
-</center>
+</p>
 
 ## Working of the API
 
@@ -69,15 +69,21 @@ As a client of the above API, we built an Android App through which you can send
 Steps to use the App:
 1.  Type the IP Address or Domain Name of the server
 
-   <center><img src="images/app_1.png" width="50%"></center>
+  <p align="center">
+   <img src="images/app_1.png" width="50%">
+  </p>
 
 2.  Select a photo and send
 
-   <center><img src="images/app_2.jpeg" width="50%"></center>
+  <p align="center">
+   <img src="images/app_2.jpeg" width="50%">
+  </p>
 
 3. You'll get an image in response with all the objects detected.
 
-   <center><img src="images/app_3.png" width="50%"></center>
+  <p align="center">
+   <img src="images/app_3.png" width="50%">
+  </p>
    
 
 
