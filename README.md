@@ -37,14 +37,15 @@ The basic web interface looks like:
 ![](images/screen.png)
 
 After uploading photos, we get images with boundary boxes detected around it. For examples
-<center>
+
+<p align="center">
 <img src="images/input_1.jpg" width="45%">
 <img src="images/output_1.png" width="45%">
 <br>
 <br>
 <img src="images/input_2.jpeg" width="45%">
 <img src="images/output_2.png" width="45%">
-</center>
+</p>
 
 ## Working of the API
 
@@ -59,20 +60,30 @@ image=[bytearray of image]
 ```
 The Image should be sent with `image` name. Postman or any mobile clients can be used comfortably with this API.
 Image of any size can be used with this API. Though, Larger size images take longer to process.
-<center><img src = "images/flow_chart.png" width="85%"></center>
+
+<p align="center"><img src = "images/flow_chart.png" width="85%"></p>
 
 ## An APP-lication of Object Detection API
 As a client of the above API, we built an Android App through which you can send a photo to the server and it will return a photo with bounding boxes and classification of objects in the image. You can download the app: [Download](https://drive.google.com/file/d/1Q60jO9s5ZHcFpWb5k7d6av53t2qZCaWR/view?usp=sharing)
 
 Steps to use the App:
 1.  Type the IP Address or Domain Name of the server
-   <center><img src="images/app_1.png" width="50%"></center>
+
+  <p align="center">
+   <img src="images/app_1.png" width="50%">
+  </p>
 
 2.  Select a photo and send
-   <center><img src="images/app_2.jpeg" width="50%"></center>
+
+  <p align="center">
+   <img src="images/app_2.jpeg" width="50%">
+  </p>
 
 3. You'll get an image in response with all the objects detected.
-   <center><img src="images/app_3.png" width="50%"></center>
+
+  <p align="center">
+   <img src="images/app_3.png" width="50%">
+  </p>
    
 
 
