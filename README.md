@@ -66,7 +66,14 @@ Image of any size can be used with this API. Though, Larger size images take lon
 * [PyTorch](https://pytorch.org/) - A Deep Learning Framework
 * [YOLO v3.0](https://pjreddie.com/yolo/) - Object Detection Algorithm
 
+
+## To-Do
+* [ ] Add Android Application
+* [ ] Update README for the Android App.
 ## Authors
 * **Loveleen Amar** [LinkedIn](https://www.linkedin.com/in/loveleen-amar/) | [GitHub](https://github.com/loveleen-amar)
 * **Sanchita Khare** [LinkedIn](https://www.linkedin.com/in/sanchita-khare/) | [GitHub](https://github.com/Sanchita99)
 * **Rajiv Nayan Choubey** [LinkedIn](https://www.linkedin.com/in/rajivnayanc/) | [GitHub](https://github.com/rajivnayanc/)
+
+## LICENSE
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
